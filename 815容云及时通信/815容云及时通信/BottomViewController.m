@@ -44,7 +44,7 @@
         [[RCIM sharedRCIM] initWithAppKey:@"pwe86ga5e5ed6"];
         
 
-        [[RCIM sharedRCIM] connectWithToken:@"pcWaTaw9YBFb9PjIlBmRpcnLITtKRZFIwNMy24XLxWlPxeI54qabXjGFKZtruXDGCL+iJw+qfgPkquuVo8CjvPeXfkoQQTyt" success:^(NSString *userId) {
+        [[RCIM sharedRCIM] connectWithToken:@"ySfi6k9oyt6/rZqANrAEGSBvlfTVvEknZFQa2xbn9V3Q9I+xQ9ijcN+nZ+Ox1lQhFWvWLuyVGaG1R0Y7cnApHcjG7d8d9X1uOfR67pfNHxo=" success:^(NSString *userId) {
             NSLog(@"登陆成功。当前登录的用户ID：%@", userId);
              [[RCIM sharedRCIM] setUserInfoDataSource:self];
         dispatch_async(dispatch_get_main_queue(), ^{
